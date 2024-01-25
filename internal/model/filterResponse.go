@@ -21,9 +21,9 @@ func (f *FilterResponse) Transform(filterName string, filterValues []string) *Fi
 		f.Region = padFilterValues(filterValues)
 	case "category":
 		f.Category = padFilterValues(filterValues)
-	case "screen_name":
+	case "screenName":
 		f.ScreenName = padFilterValues(filterValues)
-	case "user_name":
+	case "userName":
 		f.UserName = padFilterValues(filterValues)
 	case "role":
 		f.Role = padFilterValues(filterValues)
